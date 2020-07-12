@@ -26,8 +26,8 @@ from tkinter import filedialog
 from tkinter import messagebox
 
 
-input_path ='C:\\Users\\Dave\\Documents\\testPics\\'
-output_path='C:\\Users\\Dave\\Documents\\testPics\\output\\'
+input_path =''
+output_path=''
 
 dirContents =[]
 
@@ -74,8 +74,8 @@ if __name__ == "__main__":
     ver_num = '0.0.1'
 
     root = tk.Tk()
-    root.title('Look Up Table Utility '+ver_num)
-    #root.geometry('270x160')
+    root.title('Image Prep Utility '+ver_num)
+    root.geometry('270x100')
 
     input_button = tk.Button(root, text='Choose picture folder', command = getInputDir)
     input_button.pack()
