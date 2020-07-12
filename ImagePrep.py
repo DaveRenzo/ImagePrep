@@ -75,7 +75,7 @@ if __name__ == "__main__":
 
     root = tk.Tk()
     root.title('Image Prep Utility '+ver_num)
-    root.geometry('270x100')
+    root.geometry('300x100')
 
     input_button = tk.Button(root, text='Choose picture folder', command = getInputDir)
     input_button.pack()
